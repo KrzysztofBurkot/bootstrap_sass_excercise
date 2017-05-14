@@ -1,0 +1,18 @@
+@import "zmienne";
+@import "mixins";
+
+#team {
+    .team_image_wrapper {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        @include background_center;
+        @include element_center(0 auto);
+    }
+    
+    #team_image_1 {background-image: url('../img/team/man-1.jpg');}
+    #team_image_2 {background-image: url('../img/team/man-2.jpg');}
+    #team_image_3 {background-image: url('../img/team/woman-1.jpg');}
+    
+    #team_bottom_description {padding-top: 3%;}
+}

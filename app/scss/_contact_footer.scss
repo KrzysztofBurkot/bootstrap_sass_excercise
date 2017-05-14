@@ -1,0 +1,38 @@
+@import "zmienne";
+@import "mixins";
+
+#contact {
+    height: 100%;
+    @include background_center_img(url('../img/footer/world-map.jpg'));
+    
+    h2, h3, input[type="submit"] {color: #fff;}
+    
+    form {
+        @include textarea_placeholder_weight;
+        @include input_placeholder_weight;
+        
+        #input_left_column {
+            @include contact_form_column_size;
+            
+            input {@include input_box_styles;}
+            
+            input[type="email"] {margin: 30px 0;}
+        }
+        
+        #input_right_column {@include contact_form_column_size;}
+        
+        textarea {@include input_box_styles;}
+    }
+}
+
+#footer {
+    .copyright {
+        @include footer_periferial;
+        
+        i {color: $base_color_text;}
+    }
+    
+    .terms_of_use {@include footer_periferial;}
+    
+    p{margin: 0;}
+}

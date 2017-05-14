@@ -1,0 +1,14 @@
+@import "zmienne";
+@import "mixins";
+
+#services {
+    .services_items_icons_wrapper {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: $base_color_blue;
+        @include element_center(auto);
+        font-size: 70px;
+        padding: 25px 0;
+    }
+}

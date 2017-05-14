@@ -1,0 +1,52 @@
+@import "zmienne";
+
+@import "mixins";
+
+body, html {
+    text-align: center;
+    @include font_color($base_font_text,$base_color_text);
+}
+
+.section_header, .menu_list_items, .btn, h1, h4  {
+    text-transform: uppercase;
+    @include font_color($base_font_headlines,$base_color_headline);
+    font-weight: 500;
+}
+
+#menu_logo, h2, h3, h5 {@include font_color($base_font_italics,$base_color_headline);}
+
+header ~ section {
+    height: 100%;
+    padding: 7% 0;
+}
+
+.section_subheader {padding-bottom: 5%;}
+
+i {color: #fff;}
+
+.social_media_icons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.social_media_icons_wrapper {
+    height: 35px;
+    width: 35px;
+    background-color: $base_color_headline;
+    border-radius: 50%;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media_icons {
+    margin: auto;
+    font-size: 20px;
+}
+
+.social_media_icons_wrapper:hover {
+    background-color: $base_color_hover;
+    transition: all 0.2s ease-in-out;
+}

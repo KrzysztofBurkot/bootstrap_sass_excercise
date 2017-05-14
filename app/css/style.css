@@ -1,0 +1,220 @@
+/*BASE COLORS*/
+/*BASE FONTS*/
+/*FONT SIZES*/
+body, html {
+  text-align: center;
+  font-family: "Robo Slab", sans-serif;
+  color: #777; }
+
+.section_header, .menu_list_items, .btn, h1, h4 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-weight: 500; }
+
+#menu_logo, h2, h3, h5 {
+  font-family: "Droid Serif", italic;
+  color: #333; }
+
+header ~ section {
+  height: 100%;
+  padding: 7% 0; }
+
+.section_subheader {
+  padding-bottom: 5%; }
+
+i {
+  color: #fff; }
+
+.social_media_icons_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.social_media_icons_wrapper {
+  height: 35px;
+  width: 35px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 8px;
+  display: flex;
+  flex-direction: column; }
+
+.social_media_icons {
+  margin: auto;
+  font-size: 20px; }
+
+.social_media_icons_wrapper:hover {
+  background-color: #0ed8d6;
+  transition: all 0.2s ease-in-out; }
+
+/*BASE COLORS*/
+/*BASE FONTS*/
+/*FONT SIZES*/
+#menu {
+  background-color: rgba(255, 255, 255, 0);
+  border: none; }
+  #menu #menu_logo, #menu .menu_list_items {
+    color: #fff; }
+
+#header {
+  background-image: url("../img/header/pictures_on_the_wall.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding: 35vh 0; }
+  #header #header_motto {
+    color: #fff; }
+  #header #header_main {
+    color: #fff;
+    font-weight: 600;
+    font-size: 8vh; }
+  #header #header_button {
+    color: #fff;
+    padding: 15px; }
+
+/*BASE COLORS*/
+/*BASE FONTS*/
+/*FONT SIZES*/
+#services .services_items_icons_wrapper {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #5bc0de;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 70px;
+  padding: 25px 0; }
+
+/*BASE COLORS*/
+/*BASE FONTS*/
+/*FONT SIZES*/
+#portfolio {
+  background-color: #f7f7f7; }
+  #portfolio .portfolio_item_image_wrapper {
+    height: 400px; }
+    #portfolio .portfolio_item_image_wrapper #portfolio_item_image_1 {
+      background-image: url("../img/portfolio/chestnut_on_bracket.jpg"); }
+    #portfolio .portfolio_item_image_wrapper #portfolio_item_image_2 {
+      background-image: url("../img/portfolio/typing_on_laptop.jpg"); }
+    #portfolio .portfolio_item_image_wrapper #portfolio_item_image_3 {
+      background-image: url("../img/portfolio/child_with_blue_paint.jpg"); }
+    #portfolio .portfolio_item_image_wrapper #portfolio_item_image_4 {
+      background-image: url("../img/portfolio/chaotic_paint.jpg"); }
+    #portfolio .portfolio_item_image_wrapper #portfolio_item_image_5 {
+      background-image: url("../img/portfolio/house_with_blue_doors.jpg"); }
+    #portfolio .portfolio_item_image_wrapper #portfolio_item_image_6 {
+      background-image: url("../img/portfolio/box_of_cookies.jpg"); }
+    #portfolio .portfolio_item_image_wrapper .portfolio_item_image {
+      width: 100%;
+      height: 75%;
+      background-position: center;
+      background-size: cover;
+      position: relative; }
+      #portfolio .portfolio_item_image_wrapper .portfolio_item_image .portfolio_item_mask {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: rgba(14, 216, 214, 0.8);
+        font-size: 2%; }
+        #portfolio .portfolio_item_image_wrapper .portfolio_item_image .portfolio_item_mask .portfolio_item_mask_content {
+          position: relative;
+          height: 100%; }
+          #portfolio .portfolio_item_image_wrapper .portfolio_item_image .portfolio_item_mask .portfolio_item_mask_content .portfolio_item_mask_content_inner {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 5px;
+            font-size: 60px; }
+      #portfolio .portfolio_item_image_wrapper .portfolio_item_image .portfolio_item_mask:hover {
+        opacity: 1;
+        transition: all 0.3s ease-in-out; }
+
+/*BASE COLORS*/
+/*BASE FONTS*/
+/*FONT SIZES*/
+#team .team_image_wrapper {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+#team #team_image_1 {
+  background-image: url("../img/team/man-1.jpg"); }
+
+#team #team_image_2 {
+  background-image: url("../img/team/man-2.jpg"); }
+
+#team #team_image_3 {
+  background-image: url("../img/team/woman-1.jpg"); }
+
+#team #team_bottom_description {
+  padding-top: 3%; }
+
+/*BASE COLORS*/
+/*BASE FONTS*/
+/*FONT SIZES*/
+#contact {
+  height: 100%;
+  background-image: url("../img/footer/world-map.jpg");
+  background-position: center;
+  background-size: cover; }
+  #contact h2, #contact h3, #contact input[type="submit"] {
+    color: #fff; }
+  #contact form textarea::-webkit-input-placeholder {
+    font-weight: 700; }
+  #contact form textarea::-moz-placeholder {
+    font-weight: 700; }
+  #contact form textarea::-ms-input-placeholder {
+    font-weight: 700; }
+  #contact form textarea:-moz-placeholder {
+    font-weight: 700; }
+  #contact form input::-webkit-input-placeholder {
+    font-weight: 700; }
+  #contact form input::-moz-placeholder {
+    font-weight: 700; }
+  #contact form input::-ms-input-placeholder {
+    font-weight: 700; }
+  #contact form input:-moz-placeholder {
+    font-weight: 700; }
+  #contact form #input_left_column {
+    height: 250px;
+    margin: 30px 0; }
+    #contact form #input_left_column input {
+      width: 100%;
+      border-radius: 5px;
+      padding: 20px;
+      border: none; }
+    #contact form #input_left_column input[type="email"] {
+      margin: 30px 0; }
+  #contact form #input_right_column {
+    height: 250px;
+    margin: 30px 0; }
+  #contact form textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    border: none; }
+
+#footer .copyright {
+  font-size: 17px;
+  padding: 16px 0 10px 0; }
+  #footer .copyright i {
+    color: #777; }
+
+#footer .terms_of_use {
+  font-size: 17px;
+  padding: 16px 0 10px 0; }
+
+#footer p {
+  margin: 0; }

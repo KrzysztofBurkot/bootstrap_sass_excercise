@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cwiczenie strona Bootstrap</title>
+
+    <!--style bootstrap-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!--fonty z googla-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i,700i" rel="stylesheet">
+
+    <!--fonty z fontawesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--no i style moje-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll">
+
+    <!--menu nawigacyjne-->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top data-target">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="menu_logo" class="navbar-brand" href="#">Bootstrap grid</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#services" class="menu_list_items">SERVICES</a></li>
+                    <li><a href="#portfolio" class="menu_list_items">PORTFOLIO</a></li>
+                    <li><a href="#team" class="menu_list_items">TEAM</a></li>
+                    <li><a href="#contact" class="menu_list_items">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--HEADER-->
+    <header id="header" class="container-fluid vertical-center">
+        <section class="row">
+            <article class="col-lg-12">
+                <h2 id="header_motto">Lorem ipsum dolor sit amet</h2>
+            </article>
+        </section>
+        <section id="header_main_wrapper" class="row">
+            <article class="col-lg-12">
+                <h1 id="header_main" class="col-lg-12">Lorem ipsum dolor</h1>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col-lg-12">
+                <button id="header_button" type="button" class="btn btn-info btn-lg">view more</button>
+            </article>
+        </section>
+    </header>
+
+    <!--SERVICES-->
+    <section id="services" class="container">
+        <article class="row">
+            <div class="col-lg-12">
+                <h2 id="services_main_header" class="section_header">services</h2>
+            </div>
+        </article>
+        <article class="row">
+            <div class="col-lg-12">
+                <h3 class="section_subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            </div>
+        </article>
+        <article class="row">
+            <div id="services_items1" class="col-md-4 col-sm-6 services_items">
+                <div class="services_items_icons_wrapper"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                <h4 class="services_items_icons_subheader">Web development</h4>
+                <p class="services_items_icons_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nulla itaque sed pariatur autem quaerat soluta voluptatum unde expedita facere.</p>
+            </div>
+            <div id="services_items2" class="col-md-4 col-sm-6 services_items">
+                <div class="services_items_icons_wrapper"><i class="fa fa-cloud-download" aria-hidden="true"></i></div>
+                <h4 class="services_items_icons_subheader">E-Commerce</h4>
+                <p class="services_items_icons_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nulla itaque sed pariatur autem quaerat soluta voluptatum unde expedita facere.</p>
+            </div>
+            <div id="services_items3" class="col-md-4 col-sm-12 services_items">
+                <div class="services_items_icons_wrapper"><i class="fa fa-comment" aria-hidden="true"></i></div>
+                <h4 class="services_items_icons_subheader">Web Design</h4>
+                <p class="services_items_icons_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nulla itaque sed pariatur autem quaerat soluta voluptatum unde expedita facere.</p>
+            </div>
+        </article>
+    </section>
+
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container">
+                    <article class="row">
+                        <div class="col-lg-12">
+                            <h2 id="portfolio_main_header" class="section_header">portfolio</h2>
+                        </div>
+                    </article>
+                    <article class="row">
+                        <div class="col-lg-12">
+                            <h3 class="section_subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        </div>
+                    </article>
+                    <article class="row">
+                        <div class="col-md-4 col-sm-6 portfolio_item_image_wrapper">
+                            <div id="portfolio_item_image_1" class="portfolio_item_image">
+                                <div class="portfolio_item_mask">
+                                    <div class="portfolio_item_mask_content">
+                                        <div class="portfolio_item_mask_content_inner">
+                                            <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio_item_description">
+                                <h4 class="portfolio_item_description_header">Lorem ipsum dolor.</h4>
+                                <h5 class="portfolio_item_description_subheader">Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio_item_image_wrapper">
+                            <div id="portfolio_item_image_2" class="portfolio_item_image">
+                                <div class="portfolio_item_mask">
+                                    <div class="portfolio_item_mask_content">
+                                        <div class="portfolio_item_mask_content_inner">
+                                            <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio_item_description">
+                                <h4 class="portfolio_item_description_header">Lorem ipsum dolor.</h4>
+                                <h5 class="portfolio_item_description_subheader">Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 portfolio_item_image_wrapper">
+                            <div id="portfolio_item_image_3" class="portfolio_item_image">
+                                <div class="portfolio_item_mask">
+                                    <div class="portfolio_item_mask_content">
+                                        <div class="portfolio_item_mask_content_inner">
+                                            <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio_item_description">
+                                <h4 class="portfolio_item_description_header">Lorem ipsum dolor.</h4>
+                                <h5 class="portfolio_item_description_subheader">Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="row">
+                        <div class="col-md-4 col-sm-6 portfolio_item_image_wrapper">
+                            <div id="portfolio_item_image_4" class="portfolio_item_image">
+                                <div class="portfolio_item_mask">
+                                    <div class="portfolio_item_mask_content">
+                                        <div class="portfolio_item_mask_content_inner">
+                                            <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio_item_description">
+                                <h4 class="portfolio_item_description_header">Lorem ipsum dolor.</h4>
+                                <h5 class="portfolio_item_description_subheader">Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio_item_image_wrapper">
+                            <div id="portfolio_item_image_5" class="portfolio_item_image">
+                                <div class="portfolio_item_mask">
+                                    <div class="portfolio_item_mask_content">
+                                        <div class="portfolio_item_mask_content_inner">
+                                            <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio_item_description">
+                                <h4 class="portfolio_item_description_header">Lorem ipsum dolor.</h4>
+                                <h5 class="portfolio_item_description_subheader">Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 portfolio_item_image_wrapper">
+                            <div id="portfolio_item_image_6" class="portfolio_item_image">
+                                <div class="portfolio_item_mask">
+                                    <div class="portfolio_item_mask_content">
+                                        <div class="portfolio_item_mask_content_inner">
+                                            <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio_item_description">
+                                <h4 class="portfolio_item_description_header">Lorem ipsum dolor.</h4>
+                                <h5 class="portfolio_item_description_subheader">Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--TEAM-->
+    <section id="team" class="container">
+        <article class="row">
+            <div class="col-lg-12">
+                <h2 id="team_main_header" class="section_header">meet our team</h2>
+            </div>
+        </article>
+        <article class="row">
+            <div class="col-lg-12">
+                <h3 class="section_subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            </div>
+        </article>
+        <article class="row">
+            <div class="col-md-4 col-sm-6">
+                <div id="team_image_1" class="team_image_wrapper"></div>
+                <h4 class="team_image_subheader">Erick Stern</h4>
+                <h5 class="team_image_subsubheader">Acountant Manager</h5>
+                <div class="social_media_icons_container">
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.facebook.com" class="social_media_icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.twitter.com" class="social_media_icons"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.linkedin.com" class="social_media_icons"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div id="team_image_2" class="team_image_wrapper"></div>
+                <h4 class="team_image_subheader">Martin Muller</h4>
+                <h5 class="team_image_subsubheader">Developer</h5>
+                <div class="social_media_icons_container">
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.facebook.com" class="social_media_icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.twitter.com" class="social_media_icons"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.linkedin.com" class="social_media_icons"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div id="team_image_3" class="team_image_wrapper"></div>
+                <h4 class="team_image_subheader">Anna Smith</h4>
+                <h5 class="team_image_subsubheader">Project Manager</h5>
+                <div class="social_media_icons_container">
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.facebook.com" class="social_media_icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.twitter.com" class="social_media_icons"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.linkedin.com" class="social_media_icons"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="row">
+            <div id="team_bottom_description" class="col-lg-12">
+                <p id="team_bottom_description_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus incidunt quos ea perferendis, rem veniam placeat! Consequatur ipsa adipisci eius a, repudiandae repellendus eaque provident vitae quidem, voluptates illum obcaecati.</p>
+            </div>
+        </article>
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container">
+                    <article class="row">
+                        <div class="col-lg-12">
+                            <h2 id="contact_main_header" class="section_header">contact</h2>
+                        </div>
+                    </article>
+                    <article class="row">
+                        <div class="col-lg-12">
+                            <h3 class="section_subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        </div>
+                    </article>
+                    <form action="https://formspree.io/burypl@gmail.com" method="post" class="row">
+                        <div class="col-md-6" id="input_left_column">
+                            <input type="text" placeholder="YOUR NAME*"><br>
+                            <input type="email" placeholder="YOUR EMAIL*"><br>
+                            <input type="number" placeholder="YOUR PHONE*">
+                        </div>
+                        <div class="col-md-6" id="input_right_column">
+                            <textarea name="message" id="message" cols="50" rows="10" placeholder="YOUR MESSAGE*"></textarea>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="submit" class="btn btn-info btn-lg" value="SEND MESSAGE">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--STOPKA-->
+    <footer id="footer" class="container">
+        <article class="row">
+            <div class="col-md-4 copyright">
+                <p>Cypyright <i class="fa fa-copyright" aria-hidden="true"></i> <a href="burypl.github.io">Krzysztof Burkot</a></p>
+            </div>
+            <div class="col-md-4">
+                <div class="social_media_icons_container">
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.facebook.com" class="social_media_icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.twitter.com" class="social_media_icons"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="social_media_icons_wrapper">
+                        <a href="https://www.linkedin.com" class="social_media_icons"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 terms_of_use">
+                <a href="">Privacy Policy</a>
+                <a href="">Terms of Use</a>
+            </div>
+        </article>
+    </footer>
+
+    <!--SKRYPTY-->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

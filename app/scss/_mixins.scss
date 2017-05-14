@@ -1,0 +1,56 @@
+@mixin font_color($font,$color) {
+    font-family: $font;
+    color: $color;
+}
+
+@mixin background_center {
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin background_center_img($url) {
+    background-image: $url;
+    @include background_center;
+}
+
+@mixin element_center($margin) {
+    left: 0;
+    right: 0;
+    margin: $margin;
+}
+
+@mixin element_center_vert {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin textarea_placeholder_weight {
+    textarea::-webkit-input-placeholder {font-weight: 700;}
+    textarea::-moz-placeholder {font-weight: 700;}
+    textarea::-ms-input-placeholder {font-weight: 700;}
+    textarea:-moz-placeholder {font-weight: 700;}
+}
+
+@mixin input_placeholder_weight {
+    input::-webkit-input-placeholder {font-weight: 700;}
+    input::-moz-placeholder {font-weight: 700;}
+    input::-ms-input-placeholder {font-weight: 700;}
+    input:-moz-placeholder {font-weight: 700;}
+}
+
+@mixin input_box_styles {
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+}
+
+@mixin contact_form_column_size {
+    height: 250px;
+    margin: 30px 0;
+}
+
+@mixin footer_periferial {
+    font-size: 17px;
+    padding: 16px 0 10px 0;
+}

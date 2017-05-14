@@ -1,0 +1,29 @@
+@import "zmienne";
+@import "mixins";
+
+
+#menu {
+    background-color: rgba(255,255,255,0);
+    border: none;
+    
+    #menu_logo, .menu_list_items {color: #fff;}
+}
+
+#header {
+    @include background_center_img(url("../img/header/pictures_on_the_wall.jpg"));
+    height: 100%;
+    padding: 35vh 0;
+    
+    #header_motto {color: #fff};
+    
+    #header_main {
+        color: #fff;
+        font-weight: 600;
+        font-size: 8vh;
+    }
+    
+    #header_button {
+        color: #fff;
+        padding: 15px;
+    }
+}
